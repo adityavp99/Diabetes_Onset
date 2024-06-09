@@ -8,11 +8,10 @@ The project's aim is to build a deep learning model to predict diabetes in femal
 
 ### Methodology
 The project employs a dataset of female patient diagnostic measurements to train and validate the model. Key steps include:
-
-### Data Preprocessing: Cleaning and preparing the data for analysis.
-- Feature Scaling: Standardizing features to improve model performance, particularly important for the ANN model used, which incorporates ReLU activation functions in the input and hidden layers, and a Sigmoid activation function in the output layer.
+- Data Preprocessing: Cleaning and preparing the data for analysis.
+- Feature Scaling: Standardizing features to improve model performance. This is particularly important for the ANN model used, which incorporates ReLU activation functions in the input and hidden layers, and a Sigmoid activation function in the output layer.
 - Model Training: Splitting the data into training and validation sets to train the Artificial Neural Network (ANN) model.
-- Evaluation: Assessing the model's performance using metrics such as accuracy, precision, recall, and F1-score.
+- Evaluation: Assessing the model's performance using metrics such as accuracy, precision, recall, and F1 Score.
 
 ### Results
 The deep learning model demonstrated promising results in classifying diabetic and non-diabetic patients, with potential implications for clinical practices in early detection and intervention strategies.
